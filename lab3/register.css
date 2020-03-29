@@ -1,0 +1,68 @@
+header h2 {
+    text-align: left;
+    font-size: 30px;
+    color: #171a21;
+}
+header h1{
+    float: right;
+    margin-right: 0;
+    margin-top:0;
+}
+header h1 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #171a21;
+}
+header{
+    background-color: #76a6b7;
+    height: 50px;
+    margin-top: -25px;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+header h1 a:hover{
+    color: #084677;
+}
+body{
+    background-color: #dddddd;
+}
+section  form p{
+    color: #171a21;
+    font-size: 16px;
+}
+textarea {
+    height: 20em;
+}
+input{
+    height: 1.4em;
+}
+input, textarea {
+    margin: 0.5em 0;
+    width: 35%;
+    background-color: #ffffff;
+    border: #c8c8c1 solid 1px;
+    border-radius: 3px;
+    color: #040404
+}
+
+select {
+    background-color: #ffffff;
+    border: #39a2e5 solid 1px;
+    color: #000000
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: 2em;
+}
+
+input[type="button"],input[type="submit"]  {
+    background-color: #ffffff;
+    border: #040404 solid 1px;
+    width: 4em;
+   height: 2em;
+}
+
+input[type="button"],input[type="submit"],input[type="checkbox"], input[type="radio"], select:hover {
+    cursor: pointer;
+}
+
